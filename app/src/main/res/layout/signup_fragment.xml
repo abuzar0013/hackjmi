@@ -14,7 +14,7 @@
         android:text="SIGNUP"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="#39ff14"
         android:layout_gravity="center"
         android:layout_marginTop="160dp"/>
 
