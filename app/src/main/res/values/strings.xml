@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Al-Fallah</string>
+    <string name="api_key">xxxxx</string>
+
+    <string name="good">Good</string>
+    <string name="fair">Fair</string>
+    <string name="moderate">Moderate</string>
+    <string name="poor">Poor</string>
+    <string name="very_poor">Very Poor</string>
+    <string name="sunrise">sunrise</string>
+    <string name="max_temp">Max temp</string>
+    <string name="feels_like">Feels like</string>
+    <string name="min_temp">Min temp</string>
+    <string name="air_quality">Air Quality</string>
+    <string name="perfect">perfect</string>
+    <string name="five_days_forecast">Five Days Forecast</string>
+    <string name="clear_sky">Clear Sky</string>
+    <string name="location">Location</string>
+    <string name="updated_at">updated at</string>
+    <string name="_24_c">24°C</string>
+    <string name="pressure">Pressure</string>
+    <string name="sunset">Sunset</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind speed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="rotational">
+    What is rotational farming\n\n
+Rotational farming, also known as crop rotation, involves systematically changing the types of crops grown in specific areas over time. This agricultural practice offers several benefits when practiced at home:\n
+
+Soil Health:\n
+Different crops have varying nutrient requirements and interactions with the soil. Rotating crops helps maintain soil fertility by preventing the depletion of specific nutrients. It also reduces the risk of soil-borne diseases and pests that tend to build up when the same crop is planted repeatedly.\n
+
+Pest and Disease Management:\n
+Rotational farming can disrupt the life cycles of pests and pathogens, reducing their populations over time. Planting different crops in rotation can break the cycle of certain pests that are specific to particular plants, leading to reduced reliance on chemical pesticides.\n
+
+Weed Control:\n
+Different crops have varying growth habits and root structures. Rotating crops can help suppress weeds that are specific to certain crops, as well as reduce the overall weed burden through changes in cultivation and planting practices.\n
+
+Biodiversity:\n
+Planting a variety of crops can promote biodiversity by providing habitats for different organisms. This can include beneficial insects, pollinators, and soil microorganisms that contribute to a healthier garden ecosystem.\n
+
+Nutrient Cycling:\n
+Some crops have the ability to fix nitrogen from the air into the soil, benefiting neighboring crops that require nitrogen for growth. By rotating nitrogen-fixing crops with others, you can enhance soil fertility and reduce the need for synthetic fertilizers.
+
+</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment3">
+    <fragment
+        android:id="@+id/firstFragment3"
+        android:name="com.example.agriculus.fragments.FirstFragment"
+        android:label="FirstFragment"
+        tools:layout="@layout/first_fragment">
+        <action
+            android:id="@+id/action_firstFragment3_to_signUpFragment2"
+            app:destination="@id/signUpFragment2" />
+        <action
+            android:id="@+id/action_firstFragment3_to_logInFragment2"
+            app:destination="@id/logInFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFragment2"
+        android:name="com.example.agriculus.fragments.LogInFragment"
+        android:label="LogInFragment"
+        tools:layout="@layout/login_fragment">
+        <action
+            android:id="@+id/action_logInFragment2_to_signUpFragment2"
+            app:destination="@id/signUpFragment2" />
+        <action
+            android:id="@+id/action_logInFragment2_to_dashboard"
+            app:destination="@id/dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment2"
+        android:name="com.example.agriculus.fragments.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/signup_fragment">
+        <action
+            android:id="@+id/action_signUpFragment2_to_logInFragment2"
+            app:destination="@id/logInFragment2" />
+    </fragment>
+    <activity
+        android:id="@+id/dashboard"
+        android:name="com.example.agriculus.activities.Dashboard"
+        android:label="activity_dashboard"
+        tools:layout="@layout/activity_dashboard"/>
+</navigation>

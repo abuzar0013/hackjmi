@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305496155939",
+    "project_id": "agriculus-e2ee3",
+    "storage_bucket": "agriculus-e2ee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305496155939:android:2481545fef32cc16b90e96",
+        "android_client_info": {
+          "package_name": "com.example.agriculus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB28gcO2AWFzyXImC3jKYQCzE4RN-B9x6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

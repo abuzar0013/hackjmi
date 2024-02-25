@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_after"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.agriculus.fragments.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_homeFragment2_to_blogHomeGarden"
+            app:destination="@id/blogHomeGarden" />
+        <action
+            android:id="@+id/action_homeFragment2_to_cashCropFragment"
+            app:destination="@id/cashCropFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_camFragment2"
+            app:destination="@id/camFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_fertilizerFragment"
+            app:destination="@id/fertilizerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/userFragment2"
+        android:name="com.example.agriculus.fragments.UserFragment"
+        android:label="UserFragment"
+        tools:layout="@layout/user_fragment"/>
+    <fragment
+        android:id="@+id/chatBot"
+        android:name="com.example.agriculus.fragments.Blog"
+        android:label="Blog"
+        tools:layout="@layout/blog"/>
+
+    <fragment
+        android:id="@+id/camFragment2"
+        android:name="com.example.agriculus.fragments.CropPrediction"
+        android:label="CamFragment"
+        tools:layout="@layout/crop_prediction">
+        <action
+            android:id="@+id/action_camFragment2_to_resultScreen2"
+            app:destination="@id/resultScreen2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultScreen2"
+        android:name="com.example.agriculus.fragments.ResultScreen"
+        android:label="ResultScreen"
+        tools:layout="@layout/result_screen_fragment"/>
+    <fragment
+        android:id="@+id/blogHomeGarden"
+        android:name="com.example.agriculus.fragments.Blog"
+        android:label="BlogHomeGarden"
+        tools:layout="@layout/blog"/>
+    <fragment
+        android:id="@+id/cashCropFragment"
+        android:name="com.example.agriculus.fragments.CashCropFragment"
+        android:label="CashCropFragment"
+        tools:layout="@layout/cash_crop_fragment">
+        <action
+            android:id="@+id/action_cashCropFragment_to_last_Fragment"
+            app:destination="@id/last_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fertilizerFragment"
+        android:name="com.example.agriculus.fragments.FertilizerFragment"
+        android:label="FertilizerFragment"
+        tools:layout="@layout/fertilizer_fragment">
+        <action
+            android:id="@+id/action_fertilizerFragment_to_fertilizerResultFragment"
+            app:destination="@id/fertilizerResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fertilizerResultFragment"
+        android:name="com.example.agriculus.fragments.FertilizerResultFragment"
+        android:label="FertilizerResultFragment"
+        tools:layout="@layout/fertilizer_result_fragment"/>
+    <fragment
+        android:id="@+id/last_Fragment"
+        android:name="com.example.agriculus.fragments.Last_Fragment"
+        android:label="Last_Fragment"
+        tools:layout="@layout/last_fragment"/>
+</navigation>
