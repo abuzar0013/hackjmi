@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment2"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+
+
+    <item
+        android:id="@+id/chatBot"
+        android:icon="@drawable/agro_blog_icon"
+        android:title="Blog"/>
+
+    <item
+        android:id="@+id/userFragment2"
+        android:icon="@drawable/weather_icon"
+        android:title="Weather"/>
+</menu>
