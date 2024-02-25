@@ -29,11 +29,6 @@
         android:name="com.example.agriculus.fragments.UserFragment"
         android:label="UserFragment"
         tools:layout="@layout/user_fragment"/>
-    <fragment
-        android:id="@+id/chatBot"
-        android:name="com.example.agriculus.fragments.Blog"
-        android:label="Blog"
-        tools:layout="@layout/blog"/>
 
     <fragment
         android:id="@+id/camFragment2"
